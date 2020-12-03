@@ -1,10 +1,10 @@
 # sisAcomp
 
-A new Flutter project.
+Sistema de Acomapanhamento Acadêmico.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Este projeto é proveniente de bolsa de iniciação tecnilogica do IFMA - campus caxias.
 
 A few resources to get you started if this is your first Flutter project:
 

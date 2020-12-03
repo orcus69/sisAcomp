@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534457385668",
+    "firebase_url": "https://sisacomp-b52f6.firebaseio.com",
+    "project_id": "sisacomp-b52f6",
+    "storage_bucket": "sisacomp-b52f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534457385668:android:1139e1b5b839d4af3aff91",
+        "android_client_info": {
+          "package_name": "br.com.sisAcomp.sisAcomp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534457385668-l9kadv8ron9g4b6ut8q53jefbhi76oui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFil44-t9HxJsQOC94QicL8LDHdKOMtno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534457385668-l9kadv8ron9g4b6ut8q53jefbhi76oui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
