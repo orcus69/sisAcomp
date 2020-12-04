@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sisAcomp/common/customDrawer/customDrawer.dart';
 import 'package:provider/provider.dart';
 import 'package:sisAcomp/models/pageManager.dart';
+import 'package:sisAcomp/screens/home/homeScreen.dart';
 import 'package:sisAcomp/screens/login/loginScreen.dart';
 
 class BaseScreen extends StatelessWidget {
@@ -16,12 +17,7 @@ class BaseScreen extends StatelessWidget {
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
         children: <Widget>[
-           Scaffold(
-            drawer: CustomDrawer(),
-            appBar: AppBar(
-              title: const Text('Home'),
-            ),
-          ),
+           HomeScreen(),
           Scaffold(
             drawer: CustomDrawer(),
             appBar: AppBar(

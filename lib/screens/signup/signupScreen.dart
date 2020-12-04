@@ -5,14 +5,11 @@ import 'package:sisAcomp/models/userManager.dart';
 import 'package:provider/provider.dart';
 
 class SignUpScreen extends StatelessWidget {
-
   
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
   final User user = User();
-
-
 
   @override
   Widget build(BuildContext context) {
