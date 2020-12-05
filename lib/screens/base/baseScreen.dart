@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:sisAcomp/models/pageManager.dart';
 import 'package:sisAcomp/screens/home/homeScreen.dart';
 import 'package:sisAcomp/screens/login/loginScreen.dart';
+import 'package:sisAcomp/screens/matters/matterScreen.dart';
 
 class BaseScreen extends StatelessWidget {
 
@@ -17,13 +18,8 @@ class BaseScreen extends StatelessWidget {
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
         children: <Widget>[
-           HomeScreen(),
-          Scaffold(
-            drawer: CustomDrawer(),
-            appBar: AppBar(
-              title: const Text('Notas'),
-            ),
-          ),
+          HomeScreen(),
+          MatterScreen(),
           Scaffold(
             drawer: CustomDrawer(),
             appBar: AppBar(
