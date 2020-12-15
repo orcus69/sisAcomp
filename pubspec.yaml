@@ -33,6 +33,9 @@ dependencies:
   firebase_storage: ^3.1.5
   provider: ^4.1.2
   flip_card: ^0.4.4
+  fcharts: ^0.0.11
+  flutter_echarts: ^1.5.0
+  fl_chart: ^0.12.1
 
 dev_dependencies:
   flutter_test:

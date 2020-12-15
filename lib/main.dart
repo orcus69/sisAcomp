@@ -1,10 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:sisAcomp/models/matter.dart';
 import 'package:sisAcomp/models/matterManager.dart';
 import 'package:sisAcomp/models/userManager.dart';
 import 'package:sisAcomp/screens/base/baseScreen.dart';
 import 'package:provider/provider.dart';
 import 'package:sisAcomp/screens/login/loginScreen.dart';
+import 'package:sisAcomp/screens/matter/matterScreen.dart';
 import 'package:sisAcomp/screens/signup/signupScreen.dart';
 
 void main() {
@@ -48,6 +50,12 @@ class MyApp extends StatelessWidget {
             case '/signup':
               return MaterialPageRoute(
                   builder: (_) => SignUpScreen()
+              );
+            case '/matter':
+              return MaterialPageRoute(
+                  builder: (_) => MatterScreen(
+                    settings.arguments as Matter
+                  )
               );
             case '/base':
             default:

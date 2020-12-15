@@ -3,10 +3,10 @@ import 'package:provider/provider.dart';
 import 'package:sisAcomp/common/customDrawer/customDrawer.dart';
 import 'package:sisAcomp/models/matter.dart';
 import 'package:sisAcomp/models/matterManager.dart';
-import 'package:sisAcomp/screens/matters/components/matterListTitle.dart';
+import 'package:sisAcomp/screens/matters/components/mattersListTitle.dart';
 import 'package:sisAcomp/screens/matters/components/searchDialog.dart';
 
-class MatterScreen extends StatelessWidget {
+class MattersScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
